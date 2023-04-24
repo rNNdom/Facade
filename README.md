@@ -2,6 +2,9 @@ This project is a demonstration of how the Facade design pattern works in React 
 
 You need to have NodeJS installed in your machine in order to run the code.
 In order to init the repository in your system, 
+
+```
 cd [project_folder]
 npm install
-npm run dev
+npm` run dev
+```
