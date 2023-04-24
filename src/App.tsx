@@ -8,7 +8,7 @@ function App() {
     }
   }, []);
 
-  const [state, setState] = useState<string[]>([]);
+  const [componentState, setComponentState] = useState<string[]>([]);
   return (
     <div
       style={{
@@ -34,15 +34,15 @@ function App() {
       </h1>
       <button
         onClick={() => {
-          const poto = facade.press();
-          setState(poto);
+          const state = facade.press();
+          setComponentState(state);
         }}
       >
         Power
       </button>
 
       <div>
-        {state.map((s, index) => (
+        {componentState.map((s, index) => (
           <li key={index}>{s}</li>
         ))}
       </div>
