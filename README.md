@@ -1,0 +1,1 @@
+This project is a demonstration of how the Facade design pattern works in React TS, using a button to start a PC. The PC is composed of a CPU, Memory and Hard Drive, which the client don't use and interacts only through the Facade.
